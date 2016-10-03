@@ -33,7 +33,10 @@ Javascript like the weekend's prompt, you should use jQuery selectors to manipul
 ```js
 var makeMiddleEarth = function () {
    // create a section tag with an id of `middle-earth`
+   $('body'), append('<section>');
+  $('section').prop('id','#middleeastern');
    // add each land as an `article` tag
+   $('section')
    // inside each `article` tag include an `h1` with the name of the land
    // append `middle-earth` to your document `body`
 };
